@@ -44,9 +44,16 @@ const newEngland = ["New Hampshire","Vermont", "Maine", "Massachusetts", "Rhode 
 const grades = [91, 100, 88, 95, 75, 98, 100];
 // index values 0    1    2   3   4   5   6
 
+let state = newEngland[2];
+let student2 = grades[1];
+
+
+
 // The Array object has many methods and properties
-
-
+newEngland.length;                      // Sets or returns the number of elements in an array
+newEngland.push("New York");            
+newEngland.pop();
+newEngland.indexOf("Rhode Island", 0);
 
 
 
